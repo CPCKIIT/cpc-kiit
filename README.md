@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 1. Open your terminal or command prompt.
 2. Navigate to the project directory:
    ```bash
-   cd C:\Users\KIIT0001\Desktop\cpc-web\cpc-website
+   cd src
    ```
 3. Install the required dependencies:
    ```bash
