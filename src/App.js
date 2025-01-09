@@ -6,6 +6,7 @@ import Events from './components/Events';
 import Domains from './components/Domains';
 import Navbar from './components/Navbar'; // Import Navbar
 import './App.css';
+import MembersCards from './components/MembersCards';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/domains" element={<Domains />} />
         </Routes>
+        <MembersCards />
       </div>
     </Router>
   );
