@@ -3,7 +3,7 @@ import MemberCard from "./MemberCard.js";
 
 const MembersCards = () => {
   const [images, setImages] = useState([
-    "/default1.jpg", // Default images from public folder
+    "/default1.jpg",
     "/default2.jpg",
     "/default3.jpg",
     "/default4.jpg",
@@ -15,7 +15,7 @@ const MembersCards = () => {
       const reader = new FileReader();
       reader.onload = () => {
         const newImages = [...images];
-        newImages[index] = reader.result; // Replace image with the uploaded file
+        newImages[index] = reader.result;
         setImages(newImages);
       };
       reader.readAsDataURL(file);
@@ -24,11 +24,9 @@ const MembersCards = () => {
 
   return (
     <div className="bg-[#0f294c] p-6 md:p-12 rounded-lg w-screen mx-auto">
-      {/* Heading adjusted for responsive design */}
       <h2 className="text-white mb-10 text-3xl md:text-5xl text-left font-semibold">Members</h2>
 
       <div className="flex flex-wrap gap-16">
-        {/* Render all member cards */}
         {images.map((image, index) => (
           <MemberCard
             key={index}

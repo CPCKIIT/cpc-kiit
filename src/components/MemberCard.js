@@ -5,14 +5,11 @@ const MemberCard = ({ image, onImageUpload }) => {
                    bg-white flex items-center justify-center shadow-md overflow-hidden"
       >
         {image ? (
-          // Ensure the uploaded image fills the card properly
           <img src={image} alt="Member" className="w-full h-full object-cover" />
         ) : (
-          // Placeholder for "Add Image" functionality
           <div className="text-gray-400 text-3xl md:text-4xl font-bold">+</div>
         )}
   
-        {/* File input for uploading images */}
         <input
           type="file"
           accept="image/*"
