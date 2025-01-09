@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MemberCard from "./MemberCard.js";
+import Card from "./Card.js";
 
 const MembersCards = () => {
   const [images, setImages] = useState([
@@ -28,7 +28,7 @@ const MembersCards = () => {
 
       <div className="flex flex-wrap gap-16">
         {images.map((image, index) => (
-          <MemberCard
+          <Card
             key={index}
             image={image}
             onImageUpload={(event) => handleImageUpload(index, event)}
