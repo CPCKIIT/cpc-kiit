@@ -1,0 +1,143 @@
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 471px;
+    overflow: hidden;
+  }
+  #heading{
+    text-align: center;
+    margin:10px 0;
+    font-size:50px;
+    
+  }
+  
+  #head {
+    display: flex;
+    position: relative;
+   justify-content: center;
+   margin:30px 0;
+    
+  }
+  
+  #div1 {
+    background-color: #090547;
+    width: 590px;
+    height: 227px;
+    
+    
+    align-self: flex-end;
+  }
+  
+  #div2 {
+    background-color: #2319A3;
+    width: 473px;
+    height: 160px;
+    align-self: flex-end;
+  }
+  
+  #div3 {
+    background-color: #2553C9;
+    width: 357px;
+    height: 140px;
+    align-self: flex-end;
+  }
+  
+  #div4 {
+    background-color: #1B0931;
+    width: 765px;
+    height: 471px;
+  }
+  
+  #div11 {
+    background-color: #181359;
+    width: 550px;
+    height: 98px;
+    align-self: flex-end;
+  }
+  
+  #div22 {
+    background-color: #2319A3;
+    width: 500px;
+    height: 230px;
+    align-self: flex-end;
+  }
+  
+  #div33 {
+    background-color: #2553C9;
+    width: 400px;
+    height: 150px;
+    align-self: flex-end;
+  }
+  
+  #div111 {
+    background-color: #181359;
+    width: 600px;
+    height: 110px;
+    align-self: flex-end;
+  }
+  
+  #div222 {
+    background-color: #2319A3;
+    width: 500px;
+    height: 140px;
+    align-self: flex-end;
+  }
+  
+  #div333 {
+    background-color: #2553C9;
+    width: 420px;
+    height: 250px;
+    align-self: flex-end;
+  }
+  
+  
+  
+  #div1, #div2, #div3,
+  #div11, #div22, #div33,
+  #div111, #div222, #div333 {
+    transition: all 1s ease-in-out; 
+    position: relative; 
+    
+  }
+  
+  
+  
+  
+  .reduced {
+  
+    opacity: 0.6; 
+  }
+  
+  
+  #div1 button, #div2 button, #div3 button,
+  #div11 button, #div22 button, #div33 button,
+  #div111 button, #div222 button, #div333 button {
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 28px;
+    color: white;
+  }
+  
+  #div4 {
+    width: 50vw; 
+    height: 471px;
+    background-color: #110931;
+    transition: all 1s ease-in-out;
+  }
+  #mainImage {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    
+  }
+  
+  #mainText {
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 25px; 
+    color:azure;
+  }
