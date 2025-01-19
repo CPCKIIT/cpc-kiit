@@ -29,14 +29,15 @@ function EventsHome() {
 
   return (
     <>
+    
       <h1 id="heading">OUR EVENTS</h1>
       <div id="head">
         <div id="sidebar">
-          {/* Apply classes based on which box is selected */}
+          
           <div
             id={event1 ? "div1" : event2 ? "div11" : event3 ? "div111" : ""}
             className={event1 ? "selected" : "reduced"}
-            onClick={handleClick1} // Add onClick handler to the div
+            onClick={handleClick1} 
           >
             <button>EVENT 1</button>
           </div>
@@ -44,7 +45,7 @@ function EventsHome() {
           <div
             id={event1 ? "div2" : event2 ? "div22" : event3 ? "div222" : ""}
             className={event2 ? "selected" : "reduced"}
-            onClick={handleClick2} // Add onClick handler to the div
+            onClick={handleClick2}
           >
             <button>EVENT 2</button>
           </div>
